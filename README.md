@@ -1,15 +1,5 @@
-# mastra-audio-gen
+# Mastra audio generation
 
-To install dependencies:
+This repository is a workflow for generating audio based on a user input.
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.12. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+User input -> Generate script -> Edit script -> Generate audio -> Return audio
