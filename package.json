@@ -3,7 +3,8 @@
   "module": "./src/index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "mastra": "^0.2.4-alpha.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

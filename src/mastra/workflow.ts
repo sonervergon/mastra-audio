@@ -5,8 +5,8 @@ import {
   scriptGenerator,
   scriptEditor,
   scriptChaptersGenerator,
-} from "./mastra/agents";
-import { createAudioFileFromText } from "./mastra/audio-generator";
+} from "./agents";
+import { createAudioFileFromText } from "./audio-generator";
 
 const logger = {
   log: (message: string) => {
