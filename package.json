@@ -1,6 +1,6 @@
 {
   "name": "mastra-audio-gen",
-  "module": "index.ts",
+  "module": "./src/index.ts",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@ai-sdk/google": "^1.1.16",
-    "@ai-sdk/google-vertex": "^2.1.17",
+    "@ai-sdk/openai": "^1.1.13",
     "@mastra/core": "^0.4.0-alpha.1",
     "ai": "^4.1.45",
+    "elevenlabs": "^1.51.0",
     "zod": "^3.24.2"
   }
 }

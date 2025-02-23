@@ -173,4 +173,6 @@ dist
 
 # Finder (MacOS) folder config
 .DS_Store
+result.txt
 result.md
+*.mp3

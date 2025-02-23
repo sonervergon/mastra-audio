@@ -9,9 +9,9 @@ const run = await start({
   triggerData: {
     userInput:
       "I want to learn more about starting a startup and the best practices for it",
-    length: 500,
+    length: 1000,
     style: "casual",
   },
 });
 
-console.log(JSON.stringify(run.results.generateScriptStep, null, 2));
+console.log(JSON.stringify(run.results, null, 2));
