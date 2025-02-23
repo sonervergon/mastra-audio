@@ -128,7 +128,6 @@ const scriptEditorStep = new Step({
     const script = context?.getStepPayload<{
       script: string;
     }>("generateScriptStep")?.script;
-    const userInput = context?.triggerData;
 
     if (!script) throw new Error("Script is required");
 
